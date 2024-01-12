@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  color: white;
+  transition: background-color 1s, color 1s;
+  overflow: hidden;
+}
+
+#colorInfo {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
