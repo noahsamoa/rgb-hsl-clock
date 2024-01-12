@@ -16,7 +16,34 @@ function updateColor() {
   const colorInfo = document.getElementById("colorInfo");
   colorInfo.innerHTML = `<div>HSL: ${hue}, ${saturation}%, ${lightness}%</div><div style="margin-top: 1em; text-align:center;">${hexCode}</div>`;
   colorInfo.style.color = invertedColor;
+
+  // Update favicon color
+            setFaviconColor();
+     }
 }
+
+ // Function to set favicon color dynamically
+        function setFaviconColor() {
+            let bgColor = document.body.style.backgroundColor;
+            // Create a canvas to draw a filled square with the background color
+            let canvas = document.createElement('canvas');
+            canvas.width = canvas.height = 16;
+            canvas.getContext('2d').fillStyle = bgColor;
+            canvas.getContext('2d').fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Create a link element for the favicon and set its attributes
+            let link = document.createElement('link');
+            link.rel = 'shortcut icon';
+            link.type = 'image/png';
+            link.href = canvas.toDataURL();
+            
+            // Remove any existing link elements for the favicon and add the new one
+            let existingLinks = document.head.querySelectorAll('link[rel="shortcut icon"]');
+            for (let i = 0; i < existingLinks.length; i++) {
+                document.head.removeChild(existingLinks[i]);
+            }
+            document.head.appendChild(link);
+        }
 
 function hslToHex(h, s, l) {
   const rgbColor = hslToRgb(h / 360, s / 100, l / 100);
