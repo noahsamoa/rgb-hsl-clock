@@ -20,7 +20,7 @@ function updateColor() {
   // Update favicon color
             setFaviconColor();
      }
-}
+
 
  // Function to set favicon color dynamically
         function setFaviconColor() {
