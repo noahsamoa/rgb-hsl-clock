@@ -17,7 +17,7 @@ A web application that features a dynamic color wheel transition based on the HS
 
     ```bash
     git clone https://github.com/noahsamoa/rgb-hsl-clock.git
-    cd color-wheel-transition
+    cd rgb-hsl-clock
     ```
 
 2. Open the `index.html` file in your preferred web browser.
