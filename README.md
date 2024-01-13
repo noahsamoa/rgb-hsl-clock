@@ -22,18 +22,11 @@ A web application that features a dynamic color wheel transition based on the HS
 
 2. Open the `index.html` file in your preferred web browser.
 
-## Implementation Details
+## Project Details
 
 - The color wheel utilizes the HSL color space, adjusting the hue value over time.
 - JavaScript is employed to update the background color, HSL information, and hex code dynamically.
 - The transition includes smooth color changes and an inverted text color for better visibility.
-
-## Technical Details
-
-- **Color Calculation:** The color is calculated using the HSL (Hue, Saturation, Lightness) color space.
-- **Background Transition:** Smooth transitions are achieved through JavaScript's interval updates.
-- **Hex Code Conversion:** HSL values are converted to hex codes for display.
-- **Inverted Text Color:** Text color is inverted dynamically for improved readability.
 
 ## Notes
 
