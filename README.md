@@ -30,7 +30,7 @@ A web application that features a dynamic color wheel transition based on the HS
 
 ## Notes
 
-- The linear hue portion of the HSL spectrum has only 360 degrees of scale, and 1,440 minutes per day; this leads to one hue change every 4 minutes. 
+- The linear hue portion of the HSL spectrum has only 360 degrees of scale, but there are 1,440 minutes per day; this leads to one hue change every 4 minutes. 
 
 ## Contributions
 
