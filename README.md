@@ -1,6 +1,6 @@
 # Color Wheel Transition
 
-A web application that features a dynamic color wheel transition based on the HSL color space. The background color smoothly shifts through the HSL spectrum, providing a visually appealing experience. Additionally, the webpage displays real-time HSL color information along with the corresponding hex code.
+A simple site that features a dynamic color wheel transition based on the HSL color space. The background color smoothly shifts through the HSL spectrum, providing a visually appealing experience. Additionally, the webpage displays real-time HSL color information along with the corresponding hex code.
 
 ## Features
 
